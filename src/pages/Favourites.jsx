@@ -16,7 +16,7 @@ export default function Favourites({
             <li
               key={index}
               onClick={() => {
-                setCurrentSongIndex(song.index); // Must be passed correctly while storing favourites
+                setCurrentSongIndex(song.index); 
                 setIsPlaying(true);
               }}
               className="flex items-center justify-between hover:bg-white/10 p-2 rounded cursor-pointer transition-all"
