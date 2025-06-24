@@ -57,15 +57,15 @@ export const songsData = [
     src: "./songs/song5.mp3",
     time: "2:48"
   },
-   {
+  //  {
    
-    title: 'Love Me Like You',
-    artist: 'Ellie Goulding',
-    cover: "/images/image1.jpeg",
-    thumbnail: "/images/image1.jpeg",
-    src: "./songs/song7.mp3",
-    time: "3:19"
-  },
+  //   title: 'Love Me Like You',
+  //   artist: 'Ellie Goulding',
+  //   cover: "/images/image1.jpeg",
+  //   thumbnail: "/images/image1.jpeg",
+  //   src: "./songs/song7.mp3",
+  //   time: "3:19"
+  // },
 ];
 
 

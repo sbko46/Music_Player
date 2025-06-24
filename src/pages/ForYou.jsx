@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function ForYou({
   songs,
   setCurrentSongIndex,
@@ -12,13 +13,13 @@ export default function ForYou({
 
   return (
     <div className="p-4 text-white bg-gradient-to-br from-[#3a1c0e] to-[#2a0900] min-h-screen">
-      <h2 className="text-2xl font-bold mb-">For You</h2>
+      <h2 className="text-2xl font-bold mb-2">For You</h2>
 
       {/* 🔍 Search Input */}
       <input
         type="text"
         placeholder="Search Song, Artist"
-        className="w-full p-3 mb-4 rounded bg-[#5b2c18] text-white placeholder-gray-300"
+        className="w-full p-3 mt-6 mb-4 rounded bg-[#5b2c18] text-white placeholder-gray-300"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
@@ -55,7 +56,3 @@ export default function ForYou({
     </div>
   );
 }
-
-
-
-
