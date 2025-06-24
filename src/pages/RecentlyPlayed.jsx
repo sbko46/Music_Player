@@ -16,7 +16,7 @@ export default function RecentlyPlayed({
             <li
               key={index}
               onClick={() => {
-                setCurrentSongIndex(song.index); // index required to jump to that song
+                setCurrentSongIndex(song.index); 
                 setIsPlaying(true);
               }}
               className="flex items-center justify-between hover:bg-white/10 p-2 rounded cursor-pointer transition-all"
